@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title --data-web>#{nama_web}#</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+
+    <nav id="navbar">
+        <h1 class="title-header"><a href="#{base_url}#" --data-web>#{nama_web}#</a></h1>
+    </nav>
+
+    <main class="container p-1">
+        <article class="list-post-wrapper">
+            <div class="card mb-1" --daftar-post>
+                <h2><a href="post.html?/#{url}#" class="fw-bold" --data-post>#{judul}#</a></h2>
+                <i --data-post>#{deskripsi}#</i>
+            </div>
+        </article>
+
+        <nav id="pagination">
+            <a href="index.html?=#{sebelum}#" --data-page>Halaman Sebelumnya</a>
+            <a href="index.html?=#{setelah}#" --data-page>Halaman Setelahnya</a>
+        </nav>
+
+    </main>
+
+
+    <script src="maincore/blognitess.min.js"></script>
+</body>
+
+</html>

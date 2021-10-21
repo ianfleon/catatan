@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(10, 10, 10);
+    text-decoration: none;
+    font-weight: normal;
+}
+
+ul, ol {
+    margin-left: 1rem;
+}
+
+body {
+    font-family: 'Comic Neue', cursive;
+}
+
+/* Spacing */
+.p-1 {
+    padding: 1rem;
+}
+
+.mb-1 {
+    margin-bottom: 1rem !important;
+}
+
+/* Text */
+.fw-bold {
+    font-weight: bold !important;
+}
+
+/* Navbar */
+#navbar {
+    width: 100%;
+    padding: 1rem;
+    border-bottom: 1px solid rgb(161, 161, 161);
+}
+
+/* Main Class Wrapper */
+.container {
+    width: 100%;
+}
+
+/* List Post */
+.list-post-wrapper {
+    width: 100%;
+    margin: auto;
+}
+
+/* Card */
+.card {
+    width: 100%;
+}
+
+/* Content Post */
+.content-post h2,
+.content-post h4 {
+    margin: .7em 0 .25em 0;
+}
+
+.head-content-post {
+    border-bottom: 1px dashed #333;
+}
+
+.content-post {
+    width: 640px;
+    margin: auto;
+    /* background-color: rebeccapurple; */
+}
+
+/* Pagination */
+#pagination a {
+    display: inline-block;
+    text-decoration: underline;
+    border: 1px solid rgb(56, 56, 56);
+    padding: .25rem;
+}
