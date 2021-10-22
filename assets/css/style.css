@@ -4,15 +4,24 @@
     box-sizing: border-box;
     color: rgb(10, 10, 10);
     text-decoration: none;
-    font-weight: normal;
-}
-
-ul, ol {
-    margin-left: 1rem;
 }
 
 body {
     font-family: 'Comic Neue', cursive;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    border-top: 1px dashed;
+}
+
+a:hover {
+    text-decoration: line-through;
+}
+
+ul, ol {
+    margin-left: 1rem;
 }
 
 /* Spacing */
@@ -53,6 +62,10 @@ body {
 }
 
 /* Content Post */
+.title-content {
+    font-family: 'Times New Roman', Times, serif;
+}
+
 .content-post h2,
 .content-post h4 {
     margin: .7em 0 .25em 0;
@@ -63,7 +76,7 @@ body {
 }
 
 .content-post {
-    width: 640px;
+    width: 100%;
     margin: auto;
     /* background-color: rebeccapurple; */
 }
@@ -71,7 +84,13 @@ body {
 /* Pagination */
 #pagination a {
     display: inline-block;
-    text-decoration: underline;
     border: 1px solid rgb(56, 56, 56);
     padding: .25rem;
+    border-radius: 3px;
+}
+
+@media screen and (min-width: 640px) {
+    .content-post {
+        width: 640px;
+    }
 }
